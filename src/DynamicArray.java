@@ -134,9 +134,10 @@ public class DynamicArray<E> {
         size--;
         data[size] = null;
 
-
-
-
+        //当数组有效元素为容量的四分之一的时候在减半(采用懒的思想 , 算法的整体性更好)
+        //当数组的容量为1的时候 , 数组不可能扩容为0 , 所以要限制扩容条件
+        if(size == data.length / 4 && data.length / 2 != 0)
+            resize(data.length / 2);
 
         return ret;
     }
