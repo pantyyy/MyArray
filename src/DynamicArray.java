@@ -143,27 +143,7 @@ public class DynamicArray<E> {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    //测试
 
 
     //数组动态扩容 , 由这个类里面的方法调用 , 所以设计为private
@@ -179,47 +159,5 @@ public class DynamicArray<E> {
         //数组指向新创建的数组
         data = newData;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
