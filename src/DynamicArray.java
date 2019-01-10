@@ -3,7 +3,7 @@ public class DynamicArray<E> {
     private E[] data;
     private int size;
 
-    //测试git用
+    //测试git用 , 本地提交用
 
     //构造函数 , 用户传入数组的容量
     public DynamicArray(int capacity){
